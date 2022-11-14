@@ -43,7 +43,7 @@ if you prefer.
 
 <iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?embed=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-Go ahead and run `learn test` and take a look at the first failing test:
+Go ahead and run `npm test` and take a look at the first failing test:
 
 ```console
   1) basic math functions
@@ -65,7 +65,7 @@ function add() {
 }
 ```
 
-Once you've added the empty function, run `learn test` again; the first test
+Once you've added the empty function, run `npm test` again; the first test
 should be passing. Go ahead and get the next three tests passing as well before
 moving on.
 
