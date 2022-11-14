@@ -18,11 +18,11 @@ what's to the right of `+` together."
 If you haven't already, fork and clone this lab into your local environment.
 Navigate into its directory in the terminal, then run `code .` to open the files
 in Visual Studio Code. (If you are using a different text editor, the command
-will be different.)
+will be different.) Run `npm install` once to install our dependecies so we can test later.
 
 As you read through this lesson, you're going to be adding your solutions to
 `index.js`. You'll write a total of eight functions. Use the results of running
-`learn test` to guide you towards the right function names and functionality.
+`npm test` to guide you towards the right function names and functionality.
 
 ## Basic Math
 
@@ -151,8 +151,7 @@ With this code, both tests for the `add()` function should now be passing!
 
 ### A Quick Note about Hard Coding
 
-Think back to the errors we were getting above, e.g., `Expected undefined to
-equal 1078`. One thing that might be tempting to do when addressing an error
+Think back to the errors we were getting above, e.g., `Expected undefined to equal 1078`. One thing that might be tempting to do when addressing an error
 like this is to explicitly return exactly what the test is looking for:
 
 ```js
@@ -350,4 +349,4 @@ return it.
 - [MDN - parseFloat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
 
 [replit]: https://replit.com/languages/javascript
-[MDN documentation]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment
+[mdn documentation]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment
